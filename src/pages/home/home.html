@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic2 Image Picker
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <div  class="feedback-img">
+    <button (click)="pickImage()">Choose Image</button>
+    <br>
+    <div *ngFor="let img of images">
+        <img src="{{img}}">
+    </div>
+ </div>
+</ion-content>
