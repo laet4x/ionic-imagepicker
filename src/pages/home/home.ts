@@ -29,7 +29,6 @@ export class HomePage {
             image.push(results[i]);
       }
     this.images = image;
-    console.log(this.images); 
     }, (err) => { 
       //error here
     });
